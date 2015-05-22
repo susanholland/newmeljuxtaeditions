@@ -1042,7 +1042,7 @@ body {
   box-shadow: 3px 3px 4px #000;
   overflow-y: auto; }
 
-#hum-edit-published #document-viewport .reading-text {
+#hum-edit-published #document-viewport .reading-text, #hum-edit-published #document-viewport .text-only {
   margin-top: 40px; }
 
 #hum-edit-published #document-viewport .reading-page {
@@ -1055,6 +1055,14 @@ body {
   width: 50%;
   background: white;
   box-shadow: 3px 3px 4px #000;
+  clear: both;
+  display: inline-block; }
+
+#hum-edit-published #document-viewport .textonly-page {
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 65%;
+  background: white;
   clear: both;
   display: inline-block; }
 
